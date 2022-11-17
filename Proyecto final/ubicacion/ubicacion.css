@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+html {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    min-height: 100%;
+}
+
+body {
+    background-image: url(../img/blue_cubes.jpg);
+    background-color: rgb(0, 0, 0,0.5);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;    
+}
+
+.banner{
+    backdrop-filter: blur(50px);
+    height: 90px;
+}
+.banner .logo .imagen img{
+    width: 2em;
+}
+.banner .logo .name p{
+    font-size: 20px;
+    font-weight: 30px;
+    color: whitesmoke;
+}
+.banner .logo {
+    padding: 15px;
+}
+.text .text-general .text-principal p{
+    font-size: 1em;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.text .text-general .text-principal {
+    margin: 50px;
+}
+.text .text-general .text-contacto p{
+    font-size: 1em;
+    margin: 8px;
+    color: whitesmoke;
+}
+.text .text-general .text-contacto{
+    margin: 30px;
+}
+.text .iframes{
+    margin: 80px;
+}
+.advertencia .datos p{
+    text-align: justify;
+    font-size: 0.8em;
+    color: #535353;
+    padding: 15px;
+
+}
+.advertencia .datos {
+    max-width: 1400px;
+    margin: 0px auto;
+    
+}
+.advertencia {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.footer {
+  width: 100%;
+  height: 40px;
+  align-self: flex-end;
+}
+
+
+/* MOBILE */
+@media (max-width: 950px) {
+  body {
+    padding-top: 0px;
+  }
+  .text .iframes iframe{
+    width: 90%;
+    margin-bottom: 15px;
+  }
+  .text .iframes{
+    margin: 10px;
+  }
+  
+}
